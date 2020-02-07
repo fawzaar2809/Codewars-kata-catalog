@@ -3,7 +3,8 @@ function sumOfMinimums(arr) {
   const arrSort = [];
 
   arr.forEach(function(e) {
-    temp.push(e.sort());
+    temp.push(e.sort((a, b) => a - b));
+    console.log(temp);
   });
 
   for (var i = 0; i < temp.length; i++) {
