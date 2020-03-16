@@ -11,3 +11,16 @@ function getCount(str) {
 
   return vowelsCount;
 }
+
+/* function getCount(str) {
+  var strArray = str.split("");
+
+  let vowels = ["a", "e", "i", "o", "u"];
+
+  const result = strArray.filter(function(e) {
+    return vowels.includes(e);
+  });
+
+  return result.length;
+}
+ */
